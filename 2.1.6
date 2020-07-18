@@ -1,0 +1,7 @@
+public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
+  //if((a ==true && b == false && c ==false && d==false)||(a == true && b == true && c ==true && d==true))
+        //return false;
+    
+    return (a | b | c | d) && !(a & b & c & d) && !(a ^ b ^ c ^ d);
+
+}
